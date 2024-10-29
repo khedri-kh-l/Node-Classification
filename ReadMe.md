@@ -69,7 +69,7 @@ The model consists of three classes: Net_orig, CRD, and CLS. Net_orig is the ori
 |--     |--          |--   |---            |--                      |         --  |
 |Cora   |Graphconv(Pytorch-Geometric)  |100  |0.009 ± 0.007  |755424  |0.716± 0.017|
 |Cora   |Graphconv(DGL)                |100  |0.010 ± 0.002  |746720                      |0.727 ± 0.008|
-|Cora   |SplineConv                    |100  |0.004 ± 0.000 |2212576                       |0.872 ± 0.008|
+|Cora   |SplineConv                    |50  |0.004 ± 0.000 |2212576                       |0.910 ± 0.008|
 |Cora   |SSP-Master                    |200    |0.0371  |738016                       |0.808 ± 0.77|
 
 
